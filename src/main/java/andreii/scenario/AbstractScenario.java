@@ -12,10 +12,12 @@ abstract public class AbstractScenario {
     abstract public void play();
 
     public WebDriver getDriver() {
+
         return driver;
     }
 
     public void setDriver(WebDriver driver) {
+
         this.driver = driver;
     }
 }
